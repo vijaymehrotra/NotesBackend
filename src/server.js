@@ -13,7 +13,7 @@ const DB_URL = 'mongodb+srv://vijaymehrotra99:vm1234@cluster0.0g2imal.mongodb.ne
 
 mongoose.connect(DB_URL).then(function () {
     app.get("/", function (req, res) { 
-        const response = { message: "API Works" };
+        const response = { message: "API Works Absolutly fine" };
         res.json(response);
     });
 
